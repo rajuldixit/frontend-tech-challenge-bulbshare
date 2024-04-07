@@ -2,7 +2,7 @@ import axios, { AxiosError } from "axios";
 import React, { useEffect, useState } from "react";
 
 const useAxios = () => {
-  const [response, setResponse] = useState(null);
+  const [response, setResponse] = useState(new Array());
   const [errorMessage, setErrorMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
 

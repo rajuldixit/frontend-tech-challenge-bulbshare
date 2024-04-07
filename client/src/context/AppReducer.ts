@@ -1,4 +1,4 @@
-interface IFeed {
+export interface IFeed {
   briefref: string;
   brand: {
     name: string;
@@ -14,7 +14,7 @@ interface IFeed {
   starts_on: string;
 }
 
-interface IComment {
+export interface IComment {
   bcommentref: string;
   briefref: string;
   user: {
